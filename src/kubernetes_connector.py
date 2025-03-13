@@ -1,4 +1,4 @@
-from kubernetes import config, client
+from kubernetes import client
 import yaml
 
 with open("kube_config.yaml", 'r') as stream:

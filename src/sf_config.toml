@@ -1,0 +1,7 @@
+[dev_connect]
+account = "sf_dev_acct"
+user = "test_user_name"
+password = "vS7xQj^2m0L@i90"
+warehouse = "dev_warehouse"
+database = "dev_db"
+schema = "dev_schema"
