@@ -14,7 +14,7 @@ def kubernetes_example():
     print(f"Kube key file value: {creds.key_file}")
 
 def pkcs12_example():
-    p12_filepath = ''
+    p12_filepath = 'certs/certificate.p12'
     password = config.get('dev', 'pkcs12_password')
 
     cert_data = load_pkcs12_cert(p12_filepath, password)
